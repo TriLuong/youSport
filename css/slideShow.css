@@ -13,7 +13,7 @@
 }
 
 #slideShow .prev,
-.next {
+#slideShow .next {
   position: absolute;
   cursor: pointer;
   padding: 10px;
