@@ -17,7 +17,7 @@ function showSlide(index) {
   if (index >= maxslideIndex) {
     index = 0;
   } else if (index < 0) {
-    index = maxslideIndex;
+    index = maxslideIndex - 1;
   }
 
   slideIndex = index;
