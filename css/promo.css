@@ -13,10 +13,6 @@
   justify-items: center;
 }
 
-#promoID .promoTitle > h1 {
-  font-style: italic;
-}
-
 #promoID .promoTitle > a {
   text-decoration: none;
   font-style: italic;
@@ -35,6 +31,7 @@
   background-color: #3a215d;
   color: #daff00;
   width: 26%;
+  font-style: italic;
 }
 
 #promoID .scrollVertical {
