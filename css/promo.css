@@ -1,0 +1,82 @@
+/* PROMOTION PRODUCTS */
+#promoID {
+  margin-top: 50px;
+  border: 1px solid gainsboro;
+}
+#promoID .promoItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+#promoID .promoTitle {
+  display: flex;
+  justify-items: center;
+}
+
+#promoID .promoTitle > h1 {
+  font-style: italic;
+}
+
+#promoID .promoTitle > a {
+  text-decoration: none;
+  font-style: italic;
+  margin: auto;
+  margin-right: 110px;
+  text-transform: uppercase;
+}
+
+#promoID .promoTitle > a:hover {
+  color: red;
+}
+
+#promoID .promoTitle > h1 {
+  padding: 10px;
+  margin: 0px;
+  background-color: #3a215d;
+  color: #daff00;
+  width: 26%;
+}
+
+#promoID .scrollVertical {
+  margin: auto 10px;
+}
+
+#promoID .scrollVertical > a {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#promoID .scrollVertical > a:hover {
+  background-color: rgb(94, 91, 91);
+}
+
+#promoID .promoItem:first-child {
+  margin-left: 0px !important;
+}
+
+#promoID .promoItem {
+  margin-top: 30px;
+  border: 1px solid gainsboro;
+  margin-left: 30px;
+}
+
+#promoID .promoItem .itemInfo {
+  padding-left: 20px;
+}
+
+#promoID .promoItem img {
+  width: 100%;
+}
+
+#promoID .promoItem a:hover > img {
+  transform: scale(0.9);
+}
+
+#promoID .promoItem span {
+  font-weight: bold;
+  color: red;
+}

@@ -11,24 +11,32 @@ for (i = 0; i < promoItemsArr.length; i++) {
   }
 }
 
-function plusPromo(n) {
-  showPromo((currentPos += n));
-}
-
 function showPromo(index) {
   for (i = 0; i < promoItemsArr.length; i++) {
     promoItemsArr[i].style.display = "none";
   }
-  for (i = 0; i < promoItemsArr.length; i++) {
-    if (i === 0) {
-      temp = promoItemsArr[0];
-    } else {
-      tempPromoItemsArr.push(promoItemsArr[i]);
-      if (i === promoItemsArr.length - 1) {
+  if (index === 1) {
+    for (i = 0; i < promoItemsArr.length; i++) {
+      if (i === 0) {
+        temp = promoItemsArr[0];
+      } else {
+        tempPromoItemsArr.push(promoItemsArr[i]);
+        if (i === promoItemsArr.length - 1) {
+          tempPromoItemsArr.push(temp);
+        }
+      }
+    }
+  } else {
+    for (i = 0; i < promoItemsArr.length; i++) {
+      if (i === 0) {
+        temp = promoItemsArr[promoItemsArr.length - 1];
         tempPromoItemsArr.push(temp);
+      } else {
+        tempPromoItemsArr.push(promoItemsArr[i - 1]);
       }
     }
   }
+
   promoItemsArr = tempPromoItemsArr;
   tempPromoItemsArr = [];
   document.getElementsByClassName("promoItems")[0].innerHTML = "";
