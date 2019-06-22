@@ -1,0 +1,157 @@
+/*Product Detail*/
+.productDetail {
+  margin-top: 50px;
+}
+
+.header-detail {
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-items: center;
+}
+
+.sport-title {
+  width: 30%;
+}
+.header-detail > .sport-title > h1 {
+  padding: 10px;
+  margin: 0px;
+  background-color: #3a215d;
+  color: #daff00;
+  width: 100%;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.sport-category {
+  width: 70%;
+}
+
+.sport-category ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-top: 15px;
+  justify-content: flex-end;
+  padding: 0 15px;
+}
+
+.sport-category ul li {
+  padding: 0 15px;
+}
+
+.sport-category ul li + li {
+  border-left: 1px solid black;
+}
+.sport-category a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.sport-category a:hover {
+  color: red;
+}
+
+.sport-show {
+  margin-top: 20px;
+  display: flex;
+}
+
+.sport-left {
+  flex: 75%;
+}
+
+.sport-left .carousel-promo > img {
+  width: 100%;
+}
+
+.sport-left .promo-products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo-products .product {
+  border: 1px solid gainsboro;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.promo-products .product:first-child {
+  margin-left: 0;
+}
+
+.promo-products .product:last-child {
+  margin-right: 0;
+}
+.promo-products .product > img {
+  width: 100%;
+}
+
+.promo-products .product .product-info {
+  margin: 15px;
+}
+
+.promo-products .product .product-info > span {
+  font-weight: bold;
+  color: red;
+}
+
+.sport-right {
+  flex: 25%;
+  margin-left: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.sport-menus {
+  border: 5px solid gainsboro;
+  flex-grow: 2;
+  padding-left: 15px;
+}
+
+.sport-right h3 {
+  color: #3a215d;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.sport-menu > ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.sport-menu li {
+  padding: 10px 0;
+}
+
+.sport-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.sport-menu a:hover {
+  color: red;
+}
+.sport-menu:last-child {
+  margin-top: 40px;
+}
+
+.show-all {
+  margin-top: 15px;
+
+  bottom: 0;
+  text-transform: uppercase;
+}
+
+.show-all a {
+  text-decoration: none;
+}
+
+.show-all a:hover {
+  color: red;
+}

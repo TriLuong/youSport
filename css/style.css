@@ -1,6 +1,7 @@
 @import "./nav.css";
 @import "./slideShow.css";
 @import "./promo.css";
+@import "./productDetail.css";
 
 * {
   box-sizing: border-box;
@@ -8,6 +9,15 @@
 
 body {
   margin: 0 50px;
+}
+
+.football-menu {
+  background-image: url("../images/1.png");
+  background-repeat: no-repeat;
+  background-position-x: 115px;
+  background-position-y: 500px;
+  background-size: 100%;
+  color: gainsboro;
 }
 
 /* Caption text */
