@@ -1,0 +1,14 @@
+#brandID {
+  margin-top: 50px;
+}
+
+.brands {
+  display: flex;
+  border: 1px solid gainsboro;
+  padding: 10px;
+}
+
+.brand {
+  width: 100%;
+  text-align: center;
+}

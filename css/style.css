@@ -2,6 +2,8 @@
 @import "./slideShow.css";
 @import "./promo.css";
 @import "./productDetail.css";
+@import "./brand.css";
+@import "./footer.css";
 
 * {
   box-sizing: border-box;
@@ -17,6 +19,15 @@ body {
   background-position-x: 115px;
   background-position-y: 500px;
   background-size: 100%;
+  color: gainsboro;
+}
+
+.tableTenis-menu {
+  background-image: url("../images/tableTenis.svg");
+  background-repeat: no-repeat;
+  background-position-x: 115px;
+  background-position-y: 500px;
+  background-size: 80%;
   color: gainsboro;
 }
 
@@ -81,4 +92,28 @@ body {
   to {
     opacity: 1;
   }
+}
+
+.gotopTop a {
+  position: fixed;
+  padding: 10px;
+  border: 2px solid #3a215d;
+  opacity: 0.6;
+  border-radius: 50%;
+  bottom: 100px;
+  right: 10px;
+  z-index: 1;
+}
+
+.gotopTop a:hover {
+  color: red;
+  border: 2px solid red;
+}
+.gotopTop a:hover i {
+  color: red;
+}
+
+.gotopTop i {
+  color: #3a215d;
+  font-weight: bold;
 }
