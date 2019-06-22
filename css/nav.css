@@ -15,10 +15,17 @@ nav .search {
 
 nav .search input {
   padding: 10px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid gainsboro;
 }
 
 nav .search button {
   margin-left: -1px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: none;
+  background-color: #3a215d;
+  color: white;
+  border: 0;
 }
 
 nav ul {
